@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kishlay Kumar - futuristic interactive developer portfolio with web, AI, IoT, and immersive projects.">
+    <meta name="theme-color" content="#020607">
+    <title>Kishlay Kumar | Developer Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-ring" aria-hidden="true"></div>
+    <canvas id="space-canvas" aria-hidden="true"></canvas>
+    <div class="ambient-grid" aria-hidden="true"></div>
+
+    <header class="site-header" id="site-header">
+        <a href="#home" class="brand magnetic" aria-label="Go to home">
+            <span class="brand-mark">K</span>
+            <span class="brand-text">Kishlay<span> Kumar</span></span>
+        </a>
+
+        <button class="nav-toggle magnetic" id="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+            <i class="bx bx-menu" aria-hidden="true"></i>
+        </button>
+
+        <nav class="nav-menu" id="nav-menu" aria-label="Main navigation">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="hero-aurora" aria-hidden="true"></div>
+
+            <div class="section-shell hero-shell">
+                <div class="hero-copy">
+                    <p class="eyebrow reveal-hero">Creative Developer / CSE Student</p>
+                    <h1 class="reveal-hero">Building <span>future-ready</span> digital experiences.</h1>
+                    <h2 class="role-line reveal-hero">I'm a <span id="typed-role" aria-live="polite"></span><span class="typing-caret" aria-hidden="true"></span></h2>
+                    <p class="hero-text reveal-hero">
+                        I craft responsive web interfaces, intelligent prototypes, and IoT-powered ideas with a focus on clean design, smooth interaction, and practical problem solving.
+                    </p>
+
+                    <div class="hero-actions reveal-hero">
+                        <a href="#projects" class="btn btn-primary magnetic">
+                            <i class="bx bx-rocket" aria-hidden="true"></i>
+                            Explore Work
+                        </a>
+                        <a href="#contact" class="btn btn-secondary magnetic">
+                            <i class="bx bx-send" aria-hidden="true"></i>
+                            Hire Me
+                        </a>
+                    </div>
+
+                    <div class="social-row reveal-hero" aria-label="Social links">
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" class="magnetic" aria-label="LinkedIn">
+                            <i class="bx bxl-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://github.com/" target="_blank" rel="noreferrer" class="magnetic" aria-label="GitHub">
+                            <i class="bx bxl-github" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" class="magnetic" aria-label="Instagram">
+                            <i class="bx bxl-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" rel="noreferrer" class="magnetic" aria-label="Twitter">
+                            <i class="bx bxl-twitter" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal-hero">
+                    <div class="profile-orbit" aria-hidden="true"></div>
+                    <div class="profile-card">
+                        <img src="Kishlay1.jpg" alt="Kishlay Kumar" class="profile-image">
+                    </div>
+                    <div class="floating-chip chip-top">UI Systems</div>
+                    <div class="floating-chip chip-right">AI Logic</div>
+                    <div class="floating-chip chip-bottom">IoT Builds</div>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-cue magnetic" aria-label="Scroll to about">
+                <span></span>
+            </a>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="section-shell">
+                <div class="section-intro reveal">
+                    <p class="eyebrow">About</p>
+                    <h2>Developer mindset, designer eye, builder energy.</h2>
+                    <p>I combine front-end development, UI thinking, IoT exploration, and software testing discipline to ship experiences that feel precise and useful.</p>
+                </div>
+
+                <div class="about-grid">
+                    <figure class="about-image reveal" data-tilt data-tilt-max="6">
+                        <img src="Kishlay1.jpg" alt="Portrait of Kishlay Kumar">
+                        <figcaption>Available for web, UI, and prototype work</figcaption>
+                    </figure>
+
+                    <div class="about-content">
+                        <div class="about-panel reveal glow-card">
+                            <h3>Focused on elegant engineering.</h3>
+                            <p>
+                                I am pursuing B.Tech in CSE at GLA University, Mathura, while building practical projects across web design, full stack fundamentals, IoT, robotics, game technology, and quality testing.
+                            </p>
+                            <p>
+                                My work style is simple: understand the user's problem, design the shortest clear path, and polish the details until the experience feels effortless.
+                            </p>
+                        </div>
+
+                        <div class="counter-grid reveal">
+                            <div class="counter-card glow-card">
+                                <strong><span class="counter" data-count="20">0</span>+</strong>
+                                <span>Builds</span>
+                            </div>
+                            <div class="counter-card glow-card">
+                                <strong><span class="counter" data-count="2">0</span></strong>
+                                <span>Internships</span>
+                            </div>
+                            <div class="counter-card glow-card">
+                                <strong><span class="counter" data-count="4">0</span>+</strong>
+                                <span>Domains</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-cloud reveal" aria-label="Skills">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Three.js</span>
+                            <span>React Basics</span>
+                            <span>Node.js</span>
+                            <span>IoT</span>
+                            <span>Testing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="education section" id="education">
+            <div class="section-shell">
+                <div class="section-intro reveal">
+                    <p class="eyebrow">Education</p>
+                    <h2>Timeline of growth.</h2>
+                    <p>Each stage sharpened a different layer of my technical thinking, from fundamentals to real-world execution.</p>
+                </div>
+
+                <div class="timeline" aria-label="Education timeline">
+                    <div class="timeline-beam" aria-hidden="true"></div>
+
+                    <article class="timeline-item reveal">
+                        <div class="timeline-node" aria-hidden="true"></div>
+                        <div class="timeline-card glow-card">
+                            <span class="timeline-year">2023</span>
+                            <h3>High School</h3>
+                            <p>
+                                Completed Class 10 from a CBSE-affiliated school in India, focusing on Science, Mathematics, Social Studies, and English. These fundamentals shaped my academic path and problem-solving habits.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item reveal">
+                        <div class="timeline-node" aria-hidden="true"></div>
+                        <div class="timeline-card glow-card">
+                            <span class="timeline-year">2024</span>
+                            <h3>University</h3>
+                            <p>
+                                Currently pursuing B.Tech in Computer Science Engineering from GLA University, Mathura, with active interest in IoT, robotics, game technology, web design, and practical innovation.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item reveal">
+                        <div class="timeline-node" aria-hidden="true"></div>
+                        <div class="timeline-card glow-card">
+                            <span class="timeline-year">2025</span>
+                            <h3>Internship Experience</h3>
+                            <p>
+                                Worked with Innovite Service and Unified Motors, contributing to technical tasks, teamwork, project-based learning, IoT exploration, and professional development workflows.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="services section" id="services">
+            <div class="section-shell">
+                <div class="section-intro reveal">
+                    <p class="eyebrow">Services</p>
+                    <h2>Digital work with depth and clarity.</h2>
+                    <p>From polished interfaces to tested logic, I help turn ideas into reliable digital products.</p>
+                </div>
+
+                <div class="services-grid">
+                    <article class="service-card glow-card reveal" data-tilt>
+                        <i class="bx bx-layout" aria-hidden="true"></i>
+                        <h3>UI Design</h3>
+                        <p>Clean, responsive interfaces with strong hierarchy, refined spacing, and interaction details that feel natural.</p>
+                    </article>
+
+                    <article class="service-card glow-card reveal" data-tilt>
+                        <i class="bx bx-code-alt" aria-hidden="true"></i>
+                        <h3>Frontend Development</h3>
+                        <p>Modern websites built with HTML, CSS, JavaScript, animation systems, and scalable component thinking.</p>
+                    </article>
+
+                    <article class="service-card glow-card reveal" data-tilt>
+                        <i class="bx bx-server" aria-hidden="true"></i>
+                        <h3>Backend Foundations</h3>
+                        <p>API logic, data flow, authentication concepts, and service architecture using Node.js fundamentals.</p>
+                    </article>
+
+                    <article class="service-card glow-card reveal" data-tilt>
+                        <i class="bx bx-bug-alt" aria-hidden="true"></i>
+                        <h3>Software Testing</h3>
+                        <p>Reliable testing mindset for usability, device behavior, edge cases, and smooth cross-browser performance.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <div class="section-shell">
+                <div class="section-intro reveal">
+                    <p class="eyebrow">Projects</p>
+                    <h2>Selected builds and product experiments.</h2>
+                    <p>A focused mix of web platforms, AI interfaces, IoT dashboards, and immersive experiences.</p>
+                </div>
+
+                <article class="featured-project glow-card reveal" data-tilt data-category="web">
+                    <div class="featured-media">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80" alt="Neon server room dashboard preview" loading="lazy">
+                        <div class="showcase-widget widget-one">
+                            <span>Latency</span>
+                            <strong>24ms</strong>
+                        </div>
+                        <div class="showcase-widget widget-two">
+                            <span>Build</span>
+                            <strong>Live</strong>
+                        </div>
+                    </div>
+
+                    <div class="featured-copy">
+                        <span class="project-kicker">Featured Project</span>
+                        <h3>Nebula Command Center</h3>
+                        <p>
+                            A premium analytics dashboard concept for monitoring connected systems, showing real-time device health, usage patterns, and operational insights through a cinematic interface.
+                        </p>
+                        <div class="tag-row">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Three.js</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary magnetic" aria-label="Open Nebula Command Center live demo">
+                                <i class="bx bx-link-external" aria-hidden="true"></i>
+                                Live Demo
+                            </a>
+                            <a href="https://github.com/" target="_blank" rel="noreferrer" class="btn btn-secondary magnetic" aria-label="Open Nebula Command Center GitHub repository">
+                                <i class="bx bxl-github" aria-hidden="true"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="filter-bar reveal" role="tablist" aria-label="Project categories">
+                    <button class="filter-btn active magnetic" type="button" data-filter="all" aria-pressed="true">All</button>
+                    <button class="filter-btn magnetic" type="button" data-filter="web" aria-pressed="false">Web Development</button>
+                    <button class="filter-btn magnetic" type="button" data-filter="ai" aria-pressed="false">AI/ML</button>
+                    <button class="filter-btn magnetic" type="button" data-filter="iot" aria-pressed="false">IoT</button>
+                    <button class="filter-btn magnetic" type="button" data-filter="ar" aria-pressed="false">AR/VR</button>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project-card glow-card reveal" data-category="web" data-tilt>
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Code editor and web design workspace" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <span class="project-kicker">Web Development</span>
+                            <h3>Aurora Portfolio Engine</h3>
+                            <p>A motion-led developer portfolio template with animated sections, responsive layouts, and polished user flows.</p>
+                            <div class="tag-row">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>GSAP</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#" class="icon-link magnetic">Live Demo</a>
+                                <a href="https://github.com/" target="_blank" rel="noreferrer" class="icon-link magnetic">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card glow-card reveal" data-category="ai" data-tilt>
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80" alt="AI data visualization dashboard" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <span class="project-kicker">AI/ML</span>
+                            <h3>Insight Classifier</h3>
+                            <p>A prototype interface for organizing user inputs, running lightweight classification, and showing confidence-driven insights.</p>
+                            <div class="tag-row">
+                                <span>Python</span>
+                                <span>JS</span>
+                                <span>Charts</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#" class="icon-link magnetic">Live Demo</a>
+                                <a href="https://github.com/" target="_blank" rel="noreferrer" class="icon-link magnetic">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card glow-card reveal" data-category="iot" data-tilt>
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80" alt="Circuit board for IoT project" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <span class="project-kicker">IoT</span>
+                            <h3>Smart Sensor Grid</h3>
+                            <p>An IoT dashboard concept for tracking sensor status, threshold alerts, and live device activity from one view.</p>
+                            <div class="tag-row">
+                                <span>IoT</span>
+                                <span>Node.js</span>
+                                <span>MQTT</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#" class="icon-link magnetic">Live Demo</a>
+                                <a href="https://github.com/" target="_blank" rel="noreferrer" class="icon-link magnetic">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card glow-card reveal" data-category="ar" data-tilt>
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&w=900&q=80" alt="Virtual reality headset with neon lighting" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <span class="project-kicker">AR/VR</span>
+                            <h3>Immersive Product Lab</h3>
+                            <p>A 3D product exploration concept with spatial UI elements, animated hotspots, and responsive WebXR-ready structure.</p>
+                            <div class="tag-row">
+                                <span>Three.js</span>
+                                <span>3D UI</span>
+                                <span>WebXR</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#" class="icon-link magnetic">Live Demo</a>
+                                <a href="https://github.com/" target="_blank" rel="noreferrer" class="icon-link magnetic">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card glow-card reveal" data-category="web" data-tilt>
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" alt="Laptop showing a responsive web platform" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <span class="project-kicker">Web Development</span>
+                            <h3>Campus Connect</h3>
+                            <p>A student-focused platform concept for events, resources, project teams, and simple communication workflows.</p>
+                            <div class="tag-row">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Firebase</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#" class="icon-link magnetic">Live Demo</a>
+                                <a href="https://github.com/" target="_blank" rel="noreferrer" class="icon-link magnetic">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card glow-card reveal" data-category="ai" data-tilt>
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80" alt="Team working with digital analytics" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <span class="project-kicker">AI/ML</span>
+                            <h3>Resume Signal Scanner</h3>
+                            <p>An AI-assisted concept for matching resume skills to job requirements and presenting clear improvement signals.</p>
+                            <div class="tag-row">
+                                <span>NLP</span>
+                                <span>JavaScript</span>
+                                <span>UI</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#" class="icon-link magnetic">Live Demo</a>
+                                <a href="https://github.com/" target="_blank" rel="noreferrer" class="icon-link magnetic">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="section-shell contact-shell">
+                <div class="section-intro reveal">
+                    <p class="eyebrow">Contact</p>
+                    <h2>Let us build something sharp.</h2>
+                    <p>Send a project idea, collaboration note, or internship opportunity. I will get back with a clear next step.</p>
+                </div>
+
+                <form class="contact-form glow-card reveal" id="contact-form" novalidate>
+                    <div class="form-grid">
+                        <label class="field">
+                            <input type="text" name="name" id="name" placeholder=" " autocomplete="name" required>
+                            <span>Full Name</span>
+                            <small class="field-error">Please enter your name.</small>
+                        </label>
+
+                        <label class="field">
+                            <input type="email" name="email" id="email" placeholder=" " autocomplete="email" required>
+                            <span>Email Address</span>
+                            <small class="field-error">Please enter a valid email.</small>
+                        </label>
+
+                        <label class="field">
+                            <input type="tel" name="phone" id="phone" placeholder=" " autocomplete="tel">
+                            <span>Phone Number</span>
+                            <small class="field-error">Please enter a valid phone number.</small>
+                        </label>
+
+                        <label class="field">
+                            <input type="text" name="subject" id="subject" placeholder=" " required>
+                            <span>Subject</span>
+                            <small class="field-error">Please add a subject.</small>
+                        </label>
+                    </div>
+
+                    <label class="field message-field">
+                        <textarea name="message" id="message" rows="7" placeholder=" " required></textarea>
+                        <span>Your Message</span>
+                        <small class="field-error">Please write a message.</small>
+                    </label>
+
+                    <button class="btn btn-primary magnetic submit-btn" type="submit">
+                        <i class="bx bx-paper-plane" aria-hidden="true"></i>
+                        Send Message
+                    </button>
+
+                    <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <a href="#home" class="footer-brand magnetic">Kishlay<span> Kumar</span></a>
+            <div class="footer-social" aria-label="Footer social links">
+                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" class="magnetic" aria-label="LinkedIn">
+                    <i class="bx bxl-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/" target="_blank" rel="noreferrer" class="magnetic" aria-label="GitHub">
+                    <i class="bx bxl-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" class="magnetic" aria-label="Instagram">
+                    <i class="bx bxl-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank" rel="noreferrer" class="magnetic" aria-label="Twitter">
+                    <i class="bx bxl-twitter" aria-hidden="true"></i>
+                </a>
+            </div>
+            <p>&copy; <span id="year"></span> Kishlay Kumar. All rights reserved.</p>
+        </div>
+
+        <button class="back-to-top magnetic" id="back-to-top" aria-label="Back to top">
+            <i class="bx bx-up-arrow-alt" aria-hidden="true"></i>
+        </button>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
