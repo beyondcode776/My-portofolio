@@ -1,0 +1,69 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Length 580 >>
+stream
+BT
+/F1 24 Tf
+50 730 Td
+(KISHLAY KUMAR) Tj
+/F2 12 Tf
+0 -25 Td
+(B.Tech CSE Student | UI Designer | Frontend & Backend Developer) Tj
+0 -20 Td
+(Location: India | Status: Open for Opportunities) Tj
+0 -30 Td
+/F1 14 Tf
+(CORE COMPETENCIES) Tj
+/F2 11 Tf
+0 -18 Td
+(- UI/UX Systems, Responsive Web Design & Interactive Prototyping) Tj
+0 -16 Td
+(- Frontend Development: React, JavaScript, HTML5, CSS3, Tailwind CSS) Tj
+0 -16 Td
+(- Backend Development: Node.js, Express, REST APIs, Databases) Tj
+0 -16 Td
+(- IoT Systems, Creative Problem Solving & Full-Stack Prototyping) Tj
+0 -30 Td
+/F1 14 Tf
+(EDUCATION) Tj
+/F2 11 Tf
+0 -18 Td
+(Bachelor of Technology in Computer Science & Engineering (B.Tech CSE)) Tj
+0 -30 Td
+/F1 14 Tf
+(PHILOSOPHY) Tj
+/F2 11 Tf
+0 -18 Td
+(Delivering concepts into real world with clean design and robust engineering.) Tj
+ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000350 00000 n 
+0000000244 00000 n 
+0000000297 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+982
+%%EOF
