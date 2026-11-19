@@ -9,7 +9,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "start": "node server.js",
-    "check": "node --check script.js"
+    "check": "node --check script.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "portfolio",
@@ -24,6 +26,7 @@
     "@tailwindcss/vite": "^4.3.3",
     "@vitejs/plugin-react": "^6.1.2",
     "autoprefixer": "^10.6.1",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.29",
     "tailwindcss": "^4.3.3",
     "vite": "^8.3.4"
